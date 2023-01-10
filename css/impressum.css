@@ -1,0 +1,48 @@
+body {
+    height: 100%;
+    overflow-y: hidden;
+ }
+
+ a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#construction {
+    font: Helvetica;
+    font-size: 30px;
+    font-family: Helvetica;
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    position: absolute;
+    padding-top: 50px;
+    width: 40%;
+    right: 30%;
+    left: 30%;
+}
+
+#hammerUp {
+    display: block;
+}
+
+#hammerDown {
+    display: none;
+}
+
+#impressum {
+    font-size: 16px;
+    color: grey;
+ }
+
+ #footer {
+    width: 100%;
+    text-align: center;
+    
+    position: fixed;
+    bottom: 15px;
+ }

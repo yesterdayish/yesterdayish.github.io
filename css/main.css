@@ -1,0 +1,195 @@
+/* disables scrolling */
+body {
+    height: 100%;
+    overflow-y: hidden;
+ }
+
+/* centers gif*/
+#headerAnimationGif { 
+    width: 300px;
+    padding-bottom: 80px;
+    display: block; 
+    margin: 0 auto; 
+ }
+
+ #headerAnimation { 
+    position: absolute; 
+    top: 0px; 
+    left: 0px; 
+    width: 100%; 
+    height: 100%; 
+    display: flex; 
+    align-items: center; 
+    z-index: -999;
+ } 
+
+/* places website name */
+#headerYesterdayishPng { 
+    width: 400px;
+    display: block; 
+    margin: 0 auto; 
+ }
+
+ #headerYesterdayish { 
+    position: absolute; 
+    top: 140px; 
+    left: 0px; 
+    width: 100%; 
+    height: 100%; 
+    display: flex; 
+    align-items: center; 
+    z-index: -999;
+ } 
+
+/* organizes menue points */
+.menuPoints {
+    font: Helvetica;
+    font-size: 50px;
+    font-family: Helvetica;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 280%;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ #menuPointsRight {
+    text-align: right;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 999;
+ }
+
+ #menuPointLeft {
+    text-align: left;
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 0px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 999;
+ }
+
+#linkIllustration {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px;
+}
+
+#linkGraphicDesign {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px;
+}
+
+#linkArtwork {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px;
+}
+
+#linkAbout {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px;
+}
+
+ /* places impressum */
+
+ #impressum {
+    font-size: 16px;
+    color: grey;
+ }
+
+ #footer {
+    width: 100%;
+    text-align: center;
+    
+    position: fixed;
+    bottom: 15px;
+ }
+
+  /* places background image (call to action) */
+
+  #calltoaction {
+    width: 400px;
+    rotate: 4deg;
+    display: block; 
+    margin: 0 auto; 
+  }
+
+  #callImage {
+    position: absolute; 
+    top: 0px; 
+    left: 0px; 
+    width: 33%; 
+    height: 160%; 
+    display: flex; 
+    align-items: center; 
+    z-index: -999;
+  }
+
+  /* place lines */
+
+#line3 {
+    position: relative;   
+    width: 430px;
+    margin-top: -150px;
+    padding: 0;
+    z-index: -999;
+}
+
+/* places arrow */
+
+#arrowAbout {
+    position: absolute;
+    width: 260px;
+    margin-top: -100px;
+    margin-left: 120px;
+    rotate: -18deg;
+    z-index: -999;
+}
+
+/* places circle for hover */
+
+#hovercircle1 {
+    position: absolute;
+    width: 320px;
+    right: 10px;
+    top: 15px;
+    z-index: -888;
+    display: none;
+}
+
+#hovercircle2 {
+    position: absolute;
+    width: 320px;
+    right: 50px;
+    top: 205px;
+    z-index: -888;
+    display: none;
+}
+
+#hovercircle3 {
+    position: absolute;
+    width: 320px;
+    right: -10px;
+    top: 400px;
+    z-index: -888;
+    display: none;
+}
+
+#hovercircle4 {
+    position: absolute;
+    width: 320px;
+    left: -10px;
+    top: 20px;
+    z-index: -888;
+    display: none;
+}
